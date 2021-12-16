@@ -1,0 +1,127 @@
+.App {
+  background-color: #364a57;
+  color: beige;
+  display: flex;
+
+  /* display: grid;
+  grid-template-columns: 50px 5fr 1fr;
+  grid-template-rows: 100%;
+  grid-gap: 40px; */
+}
+.sol {
+  width: 5% !important;
+}
+
+.orta {
+  width: 80%;
+}
+.sag {
+  width: 15% !important;
+}
+.nonesag {
+  display: none;
+}
+.bigorta {
+  width: 95% !important;
+}
+/* ------------------------- */
+/* Left Sidebar */
+/* ------------------------ */
+.leftSidebar {
+  background-color: #2f556e;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-right: 5px #364a57 solid;
+}
+
+.row-icon {
+  margin: 40%;
+  font-size: 4vh;
+  opacity: 0.3;
+}
+.row-icon2 {
+  font-size: 2em;
+  opacity: 1;
+  background-color: #364a57;
+}
+
+/* ---------- */
+/* content */
+/* ---------- */
+
+.content-col {
+  border: 7px #364a57 solid;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/* ---------- */
+/* chart1  */
+/* ---------- */
+
+.card {
+  background-color: #2e4f64 !important;
+  width: 100%;
+  margin: 0px !important;
+  border-radius: 1px !important;
+  border: 0px !important;
+}
+
+.card-header {
+  background-color: #2f5568 !important;
+  border-bottom: 1px #364a57 solid !important;
+  max-height: 40px;
+}
+
+.a {
+  width: 80px;
+  text-align: center;
+}
+
+.div-date {
+  background-color: #2f556e;
+  font-size: 15px;
+  text-align: center;
+  color: #1cb2e0;
+  margin-right: 25px;
+  width: 20%;
+  min-width: 150px;
+  border-radius: 5px;
+}
+
+.date-icon {
+  font-size: 25px;
+}
+
+/* ---------- */
+/* right Sidebar  */
+/* ---------- */
+
+.rightSidebar {
+  background-color: #2f556e;
+}
+
+/* ---------- */
+/* ---------- */
+/* ---------- */
+/* ---------- */
+
+/* @media screen and (min-width: 650px) and (max-width: 992px) {
+  .sag {
+    display: none;
+  }
+  .orta {
+    width: 100% !important;
+  }
+} */
+
+@media screen and (min-width: 300px) and (max-width: 650px) {
+  .sag {
+    display: none;
+  }
+  .sol {
+    display: none;
+  }
+}
